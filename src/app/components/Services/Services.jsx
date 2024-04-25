@@ -11,7 +11,7 @@ const Services = () => {
       <div className={styles.wrapper}>
       <div className={styles.card}>
         <div className={styles.image}>
-          <Image src="/capture1.jpg" alt="" fill className={styles.img}/>
+          <Image src="/capture1.png" alt="" fill className={styles.img}/>
           </div>
           <div className={styles.text}>
             <div className={styles.subhead}>
@@ -30,7 +30,7 @@ const Services = () => {
     
       <div className={styles.card}>
         <div className={styles.image}>
-          <Image src="/capture.jpg" alt="" fill className={styles.img}/>
+         <Image src="/Capture.png" alt="" fill className={styles.img}/>
           </div>
           <div className={styles.text}>
             <div className={styles.subhead}>
