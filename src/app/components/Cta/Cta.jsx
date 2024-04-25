@@ -15,7 +15,7 @@ const Cta = () => {
           </div>
         </div>
         <div className={styles.image}>
-          <Image src="/capture2.jpg" alt="" fill/> 
+         <Image src="/Capture2.png" alt="" fill/>
         </div>
     </div>
   )
