@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.logoContainer{
+    display: flex;
+    object-fit: contain;
+    position: relative;
+    width: 5vw;
+    height:4vw;
+    margin-top: 0.3vw;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5vw;
+    height: 4vw;
+}
+
+.active{
+    
+    
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.inactive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+}
+
+.activeLinkContainer{
+    display: flex;
+    background-color: #d9d9d9;
+    height: 100%;
+    width: 7vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.underline {
+    display: flex;
+    background-color: #0A5125;
+    height: 0.3vw;
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        font-size: 4vw;
+        font-weight: bold;
+        align-items: center;
+    }
+    
+    .logoContainer{
+        display: flex;
+        object-fit: contain;
+        position: relative;
+        width: 16.5vw;
+        height:12vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    
+    .links{
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        height: 12vw;
+    }
+    
+    .active{
+        
+        
+        
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .inactive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20vw;
+    }
+    
+    .activeLinkContainer{
+        display: flex;
+        background-color: #d9d9d9;
+        height: 100%;
+        width: 20vw;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .underline {
+        display: flex;
+        background-color: #0A5125;
+        height: 1vw;
+        width: 100%;
+    }
+}

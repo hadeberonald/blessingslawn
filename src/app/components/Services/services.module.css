@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vw;
+}
+
+.heading{
+    font-size: 2vw;
+    padding-bottom: 4vw;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    gap: 1vw;
+    padding-top:1vw;
+    font-size: 1.5vw;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    height: 20vw;
+    width: 20vw;
+}
+
+.subhead{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2vw;
+    }
+    
+    .heading{
+        font-size: 4vw;
+        padding-bottom: 4vw;
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 8vw
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        gap: 3vw;
+        padding-top:3vw;
+        font-size: 4vw;
+    }
+    
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        align-items: center;
+    }
+    
+    .image{
+        display: flex;
+        position: relative;
+        object-fit: cover;
+        height: 50vw;
+        width: 50vw;
+    }
+    
+    .subhead{
+        text-align: center;
+    }
+    
+    .img{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}

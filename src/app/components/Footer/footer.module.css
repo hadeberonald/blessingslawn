@@ -1,0 +1,47 @@
+.container{
+    background-color: #0A5125;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 4vw;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5vw;
+    gap: 10vw;
+    padding: 2vw;
+    padding-left: 5vw;
+}
+
+.copr{
+    font-size: 1vw;
+    text-align: center;
+    padding: 1vw;
+}
+
+@media screen and (max-width: 640px) {
+    .container{
+        background-color: #0A5125;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 4vw;
+    }
+    
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        font-size: 4.5vw;
+        gap: 10vw;
+        padding: 5vw;
+        padding-left: 10vw;
+    }
+    
+    .copr{
+        font-size: 3vw;
+        text-align: center;
+        padding: 3vw;
+    }
+}
